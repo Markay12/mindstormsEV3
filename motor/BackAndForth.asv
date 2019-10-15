@@ -1,4 +1,0 @@
-if brick.TouchPressed(1) == 1
-    brick.ResetMotorAngle('A');
-    brick.ResetMotorAngle('B');
-    brick.MoveMotorAngle('A

@@ -5,14 +5,14 @@ count = 0;
             count = count + 1;
             brick.ResetMotorAngle('A');
             brick.ResetMotorAngle('B');
-            brick.MoveMotorAngleRel('A', -100, 180, 'Brake');
-            brick.MoveMotorAngleRel('B', 100, 180, 'Brake');
+            brick.MoveMotorAngleRel('A', -50, 180, 'Brake');
+            brick.MoveMotorAngleRel('B', 50, 180, 'Brake');
         end
         if brick.TouchPressed(1) == 0
             brick.ResetMotorAngle('A');
             brick.ResetMotorAngle('B');
-            brick.MoveMotorAngleRel('A', 100, 180, 'Brake');
-            brick.MoveMotorAngleRel('B', -100, 180, 'Brake');
+            brick.MoveMotorAngleRel('A', 50, 180, 'Brake');
+            brick.MoveMotorAngleRel('B', -50, 180, 'Brake');
         end
             
     end
