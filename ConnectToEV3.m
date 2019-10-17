@@ -55,7 +55,6 @@ brick.playTone(100, 523.25, 900);
 pause(0.9);
 
 
-
 % Get battery level
 brick.GetBattVoltage()
 
