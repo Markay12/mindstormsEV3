@@ -2,14 +2,7 @@
 
 distance = brick.UltrasonicDist(3);
 
-x = {};
-
-while i ~= 10
-    pause(0.1);
-    i = i + 1;
-    x = [x, distance];
-end
-
+disp(distance);
 
 
 % error of 255 if the object is too far away
