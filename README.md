@@ -6,5 +6,8 @@ Sensor Port 3: Ultrasonic Sensor
 Sensor Port 4: Color/Light Sensor
 
 Motors connected to ports A and B
+Crane is connected to Port C
+Ultrasonic Motor is D
+
 
 https://www.mathworks.com/help/supportpkg/legomindstormsev3io/ref/readcolor.html
