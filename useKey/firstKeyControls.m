@@ -21,15 +21,15 @@ while 1
         case 'uparrow'
             brick.StopMotor('A');
             brick.StopMotor('B');
-            brick.MoveMotor('A', 50);
-            brick.MoveMotor('B', 50);
+            brick.MoveMotor('A', 100);
+            brick.MoveMotor('B', 100);
             
             
         case 'downarrow'
             brick.StopMotor('A');
             brick.StopMotor('B');
-            brick.MoveMotor('A', -50);
-            brick.MoveMotor('B', -50);
+            brick.MoveMotor('A', -100);
+            brick.MoveMotor('B', -100);
             
         case 'leftarrow'
             brick.StopMotor('A');
