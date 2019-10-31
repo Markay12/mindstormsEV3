@@ -11,3 +11,8 @@ Ultrasonic Motor is D
 
 
 https://www.mathworks.com/help/supportpkg/legomindstormsev3io/ref/readcolor.html
+
+
+// How to start with automatic detection
+
+https://education.lego.com/en-us/lessons/mindstorms-ev3/object-detection#Planitem2
