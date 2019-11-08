@@ -8,4 +8,3 @@ brick.beep();
 
 % Get battery level
 brick.GetBattVoltage()
-
