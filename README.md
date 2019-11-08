@@ -16,3 +16,13 @@ https://www.mathworks.com/help/supportpkg/legomindstormsev3io/ref/readcolor.html
 // How to start with automatic detection
 
 https://education.lego.com/en-us/lessons/mindstorms-ev3/object-detection#Planitem2
+
+//How to run the code
+
+https://makecode.mindstorms.com/reference/sensors/ultrasonic/on-event
+
+//set up collision alarm
+
+https://www.mathworks.com/help/supportpkg/legomindstormsev3io/examples/build-a-collision-alarm-using-the-ev3-ultrasonic-sensor.html
+
+//
