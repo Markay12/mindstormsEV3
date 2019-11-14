@@ -16,8 +16,23 @@ while 1
             pause(0.35);
             brick.StopMotor('C');
             
-        
-        
+        case 'h'
+            brick.MoveMotor('A', 50);
+            brick.MoveMotor('B', -50);
+            pause(0.5);
+            brick.StopMotor('A');
+            brick.StopMotor('B');
+            
+            
+        case 'j'
+            brick.MoveMotor('A', -50);
+            brick.MoveMotor('B', 50);
+            pause(1);
+            brick.StopMotor('A');
+            brick.StopMotor('B');
+            
+            
+            
         case 'uparrow'
             brick.StopMotor('A');
             brick.StopMotor('B');
