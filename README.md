@@ -25,4 +25,4 @@ https://makecode.mindstorms.com/reference/sensors/ultrasonic/on-event
 
 https://www.mathworks.com/help/supportpkg/legomindstormsev3io/examples/build-a-collision-alarm-using-the-ev3-ultrasonic-sensor.html
 
-! To move the robot straight forward Motor B is 2.25 less power than A
+! To move the robot straight forward Motor B is 3 less power than A 
