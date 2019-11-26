@@ -6,26 +6,22 @@
 
 ## **Table of Contents**
 
-* Sensor Information
-* Helpful Links [Help Links](https://github.com/Markay12/mindstormsEV3#helpful-links)
+* [Sensor Information](https://github.com/Markay12/mindstormsEV3#sensor-information)
+* [Helpful Links](https://github.com/Markay12/mindstormsEV3#helpful-links)
 
 
 
 
 ### *Sensor Information*
+----------------------
 
-Sensor Port 1: N/A
++ Sensor Port 1: N/A
++ Sensor Port 2: N/A
++ Sensor Port 3: Ultrasonic Sensor
++ Sensor Port 4: Color/Light Sensor
 
-Sensor Port 2: N/A
-
-Sensor Port 3: Ultrasonic Sensor
-
-Sensor Port 4: Color/Light Sensor
-
-Motors connected to ports A and B
-
-Crane is connected to Port C
-
+Motors connected to ports A and B,
+Crane is connected to Port C,
 Ultrasonic Motor is D
 
 
