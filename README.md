@@ -10,7 +10,7 @@
 * [Helpful Links](https://github.com/Markay12/mindstormsEV3#helpful-links)
 * [Connect to EV3](https://github.com/Markay12/mindstormsEV3#connect-to-mindstormsev3)
 * [Sensor Information](https://github.com/Markay12/mindstormsEV3#sensor-files)
-* 
+* [Test Key Control](https://github.com/Markay12/mindstormsEV3#test-key-control)
 
 
 
@@ -77,7 +77,7 @@ The first file to test the sensor is _touchSwitch_ which was used to test the to
 * uses and practical applications
 
 _colorSensor_
----
+
 * includes how to set-up the color sensor
 * four different modes included
 1. ambientLight
@@ -87,7 +87,7 @@ _colorSensor_
 * returns values to understand applications
 
 _Ultrasonic_
----
+
 * The main sensor used
 * Shows the setup and ```brick.UltrasonicDist(motor)```
 * includes code to use in autonomous program
