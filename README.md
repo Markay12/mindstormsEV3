@@ -12,7 +12,7 @@
 * [Connect to EV3](https://github.com/Markay12/mindstormsEV3#connect-to-mindstormsev3)
 * [Sensor Information](https://github.com/Markay12/mindstormsEV3#sensor-files)
 * [Test Key Control](https://github.com/Markay12/mindstormsEV3#test-key-control)
-* 
+* [Autonomous Control](https://github.com/Markay12/mindstormsEV3#autonomous-control)
 
 
 ### *Sensor Information*
@@ -60,7 +60,7 @@ You may also find the following files useful for programming your robot:
 [Personal Machine Software](https://github.com/Markay12/mindstormsEV3/blob/master/Personal%20Machine%20Software%20Install.pdf)
 [EV3 Toolbox](https://github.com/Markay12/mindstormsEV3/blob/master/EV3_Toolbox.zip)
 
-* [Introduction to EV3](https://canvas.asu.edu/courses/33099/files/7086420/download?wrap=1)
+* [Introduction to EV3](https://github.com/Markay12/mindstormsEV3/blob/master/Introduction%20to%20EV3.pdf)
 
 * [Keyboard Control](https://github.com/Markay12/mindstormsEV3/blob/master/Keyboard%20Control.pdf)
 
@@ -149,3 +149,64 @@ Working on the While loops was a struggle as we knew what we wanted the robot to
 4. On the pop-up window press the 'up-arrow' on your keyboard to start
 
 **_Challenge with the While Loop_**
+
+* This is the basis for our while loop and understanding of it:
+
+```
+MATLAB
+
+global key;
+InitKeyboard();
+
+startMoving = 0;
+
+while 1
+    pause(0.1);
+    distance = brick.UltrasonicDist(3);
+
+    switch key
+
+        case 'uparrow' % on the up arrow, the auto-driving will begin
+
+            while(startMoving == 0)
+
+                distance = brick.UltrasonicDist(3);
+
+                if (distance > 15)
+
+                    brick.MoveMotor('A', 50);
+                    brick.MoveMotor('B', 47);
+                    numRightTurns = 0;
+                    numLeftTurns = 0;
+
+                    distance = brick.UltrasonicDist(3);
+
+                elseif (distance < 15)
+
+                    % turn left
+
+                    brick.MoveMotor('A', 27);
+                    brick.MoveMotor('B', -27);
+                    pause(0.875);
+                    brick.StopMotor('A');
+                    brick.StopMotor('B');
+                    numLeftTurns = 1;
+
+                    distance = brick.UltrasonicDist(3);
+                    disp(distance);
+
+                end
+            end
+
+        end
+    end
+end
+
+```
+
+* Our first large problem was with the startMoving variable at the beginning. Without this the while loop would not run the way we want it to and would stop before the program would move through the while-loop
+* The next was the order in which to run through the while loop, much similar to ``` Exception ``` within Java, where the order in which you place certain loops matters. We need to make sure the robot moves further before it checks new locations
+* The next thing that we need to work towards is getting the robot to move in a straight line as the motors and wheels are not centered correctly
+
+### *Our MindstormsEV3 Mission*
+---
