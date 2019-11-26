@@ -9,7 +9,7 @@
 * [Sensor Information](https://github.com/Markay12/mindstormsEV3#sensor-information)
 * [Helpful Links](https://github.com/Markay12/mindstormsEV3#helpful-links)
 * [Connect to EV3](https://github.com/Markay12/mindstormsEV3#connect-to-mindstormsev3)
-*
+* [Sensor Information](https://github.com/Markay12/mindstormsEV3#sensor-files)
 
 
 
@@ -71,7 +71,7 @@ Your MindstormsEV3 robot should now be setup
 ----------------------
 
 The first file to test the sensor is _touchSwitch_ which was used to test the touch Sensor
----
+
 * includes set-up syntax
 * different modes
 * output values
