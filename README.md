@@ -8,6 +8,7 @@
 
 * [Sensor Information](https://github.com/Markay12/mindstormsEV3#sensor-information)
 * [Helpful Links](https://github.com/Markay12/mindstormsEV3#helpful-links)
+* Connect to EV3
 
 
 
@@ -44,3 +45,23 @@ https://makecode.mindstorms.com/reference/sensors/ultrasonic/on-event
 https://www.mathworks.com/help/supportpkg/legomindstormsev3io/examples/build-a-collision-alarm-using-the-ev3-ultrasonic-sensor.html
 
 ! To move the robot straight forward Motor B is 3 less power than A
+
+### *Connect to MindstormsEV3*
+------------------------------
+
+Make sure that your robot has a battery and is turned on and that the battery is connected
+
+In addition to making sure the robots bluetooth is on as well as the device you are connected to
+
+1. On windows or mac, navigate to your bluetooth settings and set-up a new device
+2. Locate the name of your ev3 power brick (found at the top of the brick screen)
+3. Connect
+4. Once connected you will be prompted for a code, refer to your robot
+5. Input code
+6. Open "ConnectToEV3.m" file
+
+In ConnectToEV3, run the program and it should connect MATLAB to the robot as well as play a sound and display the battery power
+
+**Congratulations**
+
+Your MindstormsEV3 robot should now be setup
