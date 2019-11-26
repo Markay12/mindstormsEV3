@@ -10,7 +10,7 @@
 * [Helpful Links](https://github.com/Markay12/mindstormsEV3#helpful-links)
 * [Connect to EV3](https://github.com/Markay12/mindstormsEV3#connect-to-mindstormsev3)
 * [Sensor Information](https://github.com/Markay12/mindstormsEV3#sensor-files)
-
+* 
 
 
 
@@ -22,9 +22,8 @@
 + Sensor Port 3: Ultrasonic Sensor
 + Sensor Port 4: Color/Light Sensor
 
-Motors connected to ports A and B,
-Crane is connected to Port C,
-Ultrasonic Motor is D
+* Motors connected to ports A and B
+* Crane is connected to Port C
 
 
 ### *Helpful Links*
@@ -96,3 +95,9 @@ _Ultrasonic_
 
 ### *Test Key Control*
 ---
+
+This file tests the use of the key controls and using the keyboard to control the robot
+
+* Uses keys to make the robot move in all directions
+* Use keys 'w' and 's' to raise and lower the crane accordingly
+* Main first use to controlling the robot
