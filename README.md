@@ -1,6 +1,6 @@
 # LEGO MindstormsEV3
 
-![alt text](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1402%2F8033%2Fproducts%2Fcompetitionmodel1_copy_700x700.jpg%3Fv%3D1533058720&f=1&nofb=1 =500x500 "MindstormsEV3 Robot")
+![alt text](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1402%2F8033%2Fproducts%2Fcompetitionmodel1_copy_700x700.jpg%3Fv%3D1533058720&f=1&nofb=1 "MindstormsEV3 Robot")
 
 
 
