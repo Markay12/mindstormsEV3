@@ -12,7 +12,7 @@
 * [Connect to EV3](https://github.com/Markay12/mindstormsEV3#connect-to-mindstormsev3)
 * [Sensor Information](https://github.com/Markay12/mindstormsEV3#sensor-files)
 * [Test Key Control](https://github.com/Markay12/mindstormsEV3#test-key-control)
-
+* 
 
 
 ### *Sensor Information*
@@ -133,3 +133,19 @@ This file tests the use of the key controls and using the keyboard to control th
 * Uses keys to make the robot move in all directions
 * Use keys 'w' and 's' to raise and lower the crane accordingly
 * Main first use to controlling the robot
+
+### *Autonomous Control*
+---
+
+Learning autonomous control was one of the most challenging parts of this Mindstorms EV3 project
+
+Working on the While loops was a struggle as we knew what we wanted the robot to do, but we were telling it to do something else. Lot's of extra work was needed to be put into the robot to allow it to run on it's own
+
+#### __How to run your Robot Autonomously (Like a Roomba)__
+
+1. Make sure that you load [ConnectToEV3](https://github.com/Markay12/mindstormsEV3#connect-to-mindstormsev3)
+2. Once done locate the Main.m file within the [automation](https://github.com/Markay12/mindstormsEV3/tree/master/automation) folder
+3. Press F5 on the program, or just run within the view tab
+4. On the pop-up window press the 'up-arrow' on your keyboard to start
+
+**_Challenge with the While Loop_**
