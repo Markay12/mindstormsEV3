@@ -8,7 +8,8 @@
 
 * [Sensor Information](https://github.com/Markay12/mindstormsEV3#sensor-information)
 * [Helpful Links](https://github.com/Markay12/mindstormsEV3#helpful-links)
-* Connect to EV3
+* [Connect to EV3](https://github.com/Markay12/mindstormsEV3#connect-to-mindstormsev3)
+*
 
 
 
@@ -65,3 +66,33 @@ In ConnectToEV3, run the program and it should connect MATLAB to the robot as we
 **Congratulations**
 
 Your MindstormsEV3 robot should now be setup
+
+### *Sensor Files*
+----------------------
+
+The first file to test the sensor is _touchSwitch_ which was used to test the touch Sensor
+---
+* includes set-up syntax
+* different modes
+* output values
+* uses and practical applications
+
+_colorSensor_
+---
+* includes how to set-up the color sensor
+* four different modes included
+1. ambientLight
+2. colorCode
+3. colorRGB
+4. lightReflect
+* returns values to understand applications
+
+_Ultrasonic_
+---
+* The main sensor used
+* Shows the setup and ```brick.UltrasonicDist(motor)```
+* includes code to use in autonomous program
+
+
+### *Test Key Control*
+---
