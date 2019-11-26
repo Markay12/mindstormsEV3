@@ -69,14 +69,14 @@ Your MindstormsEV3 robot should now be setup
 ### *Sensor Files*
 ----------------------
 
-The first file to test the sensor is _touchSwitch_ which was used to test the touch Sensor
+The first file to test the sensor is *_touchSwitch_* which was used to test the touch Sensor
 
 * includes set-up syntax
 * different modes
 * output values
 * uses and practical applications
 
-_colorSensor_
+*_colorSensor_*
 
 * includes how to set-up the color sensor
 * four different modes included
@@ -86,7 +86,7 @@ _colorSensor_
 4. lightReflect
 * returns values to understand applications
 
-_Ultrasonic_
+*_Ultrasonic_*
 
 * The main sensor used
 * Shows the setup and ```brick.UltrasonicDist(motor)```
