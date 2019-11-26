@@ -46,6 +46,12 @@ https://www.mathworks.com/help/supportpkg/legomindstormsev3io/examples/build-a-c
 
 ! To move the robot straight forward Motor B is 3 less power than A
 
+### *LEGO EV3 MATLAB Documentation*
+
+You can find all current MATLAB documentation for the LEGO EV3 utility files implemented in this class at the following [this](https://sites.google.com/a/asu.edu/fse100-cse-wiki/ev3-matlab-library-documentation)
+
+
+
 ### *Connect to MindstormsEV3*
 ------------------------------
 
