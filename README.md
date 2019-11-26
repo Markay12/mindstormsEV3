@@ -13,6 +13,7 @@
 * [Sensor Information](https://github.com/Markay12/mindstormsEV3#sensor-files)
 * [Test Key Control](https://github.com/Markay12/mindstormsEV3#test-key-control)
 * [Autonomous Control](https://github.com/Markay12/mindstormsEV3#autonomous-control)
+* [Goal of the Project](https://github.com/Markay12/mindstormsEV3#our-mindstormsev3-mission)
 
 
 ### *Sensor Information*
@@ -152,8 +153,9 @@ Working on the While loops was a struggle as we knew what we wanted the robot to
 
 * This is the basis for our while loop and understanding of it:
 
-```
-MATLAB
+``` MATLAB
+
+# MATLAB
 
 global key;
 InitKeyboard();
@@ -201,7 +203,6 @@ while 1
         end
     end
 end
-
 ```
 
 * Our first large problem was with the startMoving variable at the beginning. Without this the while loop would not run the way we want it to and would stop before the program would move through the while-loop
@@ -210,3 +211,5 @@ end
 
 ### *Our MindstormsEV3 Mission*
 ---
+
+**So what are we trying to do?**
