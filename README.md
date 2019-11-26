@@ -1,9 +1,20 @@
-# mindstormsEV3
+# LEGO MindstormsEV3
 
 ![alt text](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1402%2F8033%2Fproducts%2Fcompetitionmodel1_copy_700x700.jpg%3Fv%3D1533058720&f=1&nofb=1 "MindstormsEV3 Robot")
 
 
-Sensor Port 1: N/A
+
+## **Table of Contents**
+
+* Sensor Information
+* Helpful Links
+
+
+
+
+### *Sensor Information*
+
+Sensor Port 1: N/A\n
 Sensor Port 2: N/A
 Sensor Port 3: Ultrasonic Sensor
 Sensor Port 4: Color/Light Sensor
@@ -11,15 +22,6 @@ Sensor Port 4: Color/Light Sensor
 Motors connected to ports A and B
 Crane is connected to Port C
 Ultrasonic Motor is D
-
-## **Table of Contents**
-
-* Helpful Links
-
-
-
-
-
 
 
 ### *Helpful Links*
