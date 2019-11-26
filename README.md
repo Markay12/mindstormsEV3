@@ -46,9 +46,28 @@ https://www.mathworks.com/help/supportpkg/legomindstormsev3io/examples/build-a-c
 
 ! To move the robot straight forward Motor B is 3 less power than A
 
+
+
 ### *LEGO EV3 MATLAB Documentation*
+---
 
 You can find all current MATLAB documentation for the LEGO EV3 utility files implemented in this class at the following [this](https://sites.google.com/a/asu.edu/fse100-cse-wiki/ev3-matlab-library-documentation)
+
+You may also find the following files useful for programming your robot:
+
+* Installing MATLAB and EV3 utility files on your personal computer-
+[Personal Machine Software](https://github.com/Markay12/mindstormsEV3/blob/master/Personal%20Machine%20Software%20Install.pdf)
+[EV3 Toolbox](https://github.com/Markay12/mindstormsEV3/blob/master/EV3_Toolbox.zip)
+
+* [Introduction to EV3](https://canvas.asu.edu/courses/33099/files/7086420/download?wrap=1)
+
+* [Keyboard Control](https://github.com/Markay12/mindstormsEV3/blob/master/Keyboard%20Control.pdf)
+
+* [Sensors](https://github.com/Markay12/mindstormsEV3/blob/master/Sensors.pdf)
+
+
+
+
 
 
 
@@ -71,6 +90,9 @@ In ConnectToEV3, run the program and it should connect MATLAB to the robot as we
 **Congratulations**
 
 Your MindstormsEV3 robot should now be setup
+
+
+
 
 ### *Sensor Files*
 ----------------------
@@ -97,6 +119,9 @@ The first file to test the sensor is **_touchSwitch_** which was used to test th
 * The main sensor used
 * Shows the setup and ```brick.UltrasonicDist(motor)```
 * includes code to use in autonomous program
+
+
+
 
 
 ### *Test Key Control*
