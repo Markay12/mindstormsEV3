@@ -18,77 +18,62 @@ while 1
                 
                 distance = brick.UltrasonicDist(3);
                 
-                if (distance > 20)
-                    distance = brick.UltrasonicDist(3);
+                if (distance > 15)
                     
                     brick.MoveMotor('A', 50);
                     brick.MoveMotor('B', 47);
                     numRightTurns = 0;
                     numLeftTurns = 0;
                     
-                    
-                elseif (distance < 20)
-                    
-                    
-                    % rotate right
-                    % 90 degree left turn
-                    brick.MoveMotor('A', -27);
-                    brick.MoveMotor('B', 27);
-                    
-                    pause(0.875);
-                    
-                    brick.MoveMotor('A', 50);
-                    brick.MoveMotor('B', 47);
-                    
-                    pause(1);
-                    
-                    numRightTurns = numRightTurns + 1;
-                    
-                    if (numRightTurns == 3)
-                        numRightTurns = 0;
-                        numLeftTurns = 0;
-                    end
-                    
                     distance = brick.UltrasonicDist(3);
                     
-                elseif (distance > 18.3)
+                elseif (distance < 15)
+                    
+                    % turn left
+                    
+                    brick.MoveMotor('A', 27);
+                    brick.MoveMotor('B', -27);
+                    pause(0.875);
+                    brick.StopMotor('A');
+                    brick.StopMotor('B');
+                    numLeftTurns = 1;
                     
                     distance = brick.UltrasonicDist(3);
+                    disp(distance);
                     
-                    % 180 degree left turn
-                    
-                    brick.MoveMotor('A', 44.95);
-                    brick.MoveMotor('B', -44.95);
-                    
-                    pause(0.875);
-                    
-                    brick.MoveMotor('A', 50);
-                    brick.MoveMotor('B', 47);
-                    
-                    pause(2);
-                    
-                    numLeftTurns = numLeftTurns + 1;
-                    
-                    if(numLeftTurns == 3)
-                        numLeftTurns = 0 ;
+                    if (distance < 15)
+                        
+                        % turn to the right
+                        
+                        brick.MoveMotor('A', -49.1);
+                        brick.MoveMotor('B', 49.1);
+                        pause(0.875);
+                        brick.StopMotor('A');
+                        brick.StopMotor('B');
+                        
+                        distance = brick.UltrasonicDist(3);
+                        
+                        if (distance < 15)
+                            
+                            % turn backwards (around 3pi/2)
+                            
+                            brick.MoveMotor('A', -27);
+                            brick.MoveMotor('B', 27);
+                            pause(0.875);
+                            brick.StopMotor('A');
+                            brick.StopMotor('B');
+                            startMoving = 1;
+                            
+                            
+                        end
+                        
                     end
                     
-                    brick.UltrasonicDist(3);
                     
-                else
-                    
-                    % move motors forward
-                    brick.MoveMotor('A', 50);
-                    brick.MoveMotor('B', 47);
-                    
-                    pause(0.1);
-                    
-                    numLeftTurns = 0;
-                    numRightTurns = 0;
                     
                 end
-                
             end
+            
             
             
             
@@ -99,7 +84,15 @@ while 1
             brick.StopMotor('B');
             break;
             
+        case 'r'
+            
+            disp('Restart');
+            disp('Make sure to press the ''Up Arrow''');
+            startMoving = 0;
+            
+            
     end % end of switch statement
+    
 end % end of while loop
 
 
