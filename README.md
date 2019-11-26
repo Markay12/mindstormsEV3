@@ -8,6 +8,7 @@
 
 * [Sensor Information](https://github.com/Markay12/mindstormsEV3#sensor-information)
 * [Helpful Links](https://github.com/Markay12/mindstormsEV3#helpful-links)
+* [LEGO EV3 MATLAB Documentation](https://github.com/Markay12/mindstormsEV3#lego-ev3-matlab-documentation)
 * [Connect to EV3](https://github.com/Markay12/mindstormsEV3#connect-to-mindstormsev3)
 * [Sensor Information](https://github.com/Markay12/mindstormsEV3#sensor-files)
 * [Test Key Control](https://github.com/Markay12/mindstormsEV3#test-key-control)
