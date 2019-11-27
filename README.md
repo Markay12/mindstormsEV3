@@ -14,6 +14,7 @@
 * [Test Key Control](https://github.com/Markay12/mindstormsEV3#test-key-control)
 * [Autonomous Control](https://github.com/Markay12/mindstormsEV3#autonomous-control)
 * [Goal of the Project](https://github.com/Markay12/mindstormsEV3#our-mindstormsev3-mission)
+* [Meet the Team](https://github.com/Markay12/mindstormsEV3#meet-the-team)
 
 
 ### *Sensor Information*
