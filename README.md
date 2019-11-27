@@ -1,6 +1,6 @@
 # LEGO MindstormsEV3
 
-![alt text](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1402%2F8033%2Fproducts%2Fcompetitionmodel1_copy_700x700.jpg%3Fv%3D1533058720&f=1&nofb=1 "MindstormsEV3 Robot")
+![alt text](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1402%2F8033%2Fproducts%2Fcompetitionmodel1_copy_200x200.jpg%3Fv%3D1533058720&f=1&nofb=1 "MindstormsEV3 Robot")
 
 
 
@@ -223,3 +223,20 @@ end
 
 **How Did we Achieve this Goal?**
 * By working as a team and delegating our work together to ensure that the project was completed successfully and on time
+
+[**Final Rubric**](https://github.com/Markay12/mindstormsEV3/blob/master/Spyn%20Demonstration%20Rubric.pdf)
+
+### *Meet the Team*
+---
+
+**Eric Wu**
+* Worked on design as well as making sure that the engineering design of the robot fit well with the programming of it
+
+**Jordan Post**
+* Worked on design with Eric making sure that the design of the robot was up to code and was able to work through the maze
+
+**Mark Ashinhust**
+* Worked mainly on the code of the robot (as well as this README), and made sure that everything worked well and on time as needed
+
+**Sammy Arenson**
+* Main documentation lead as well as looking over code to ensure that we were progressing, held the team accountable and together
