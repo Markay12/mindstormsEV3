@@ -212,4 +212,14 @@ end
 ### *Our MindstormsEV3 Mission*
 ---
 
-**So what are we trying to do?**
+**So what are we trying to do?:**
+1. Our first goal in this project was to learn how to work as a team and accomplish the task of delegating our mission within the group
+2. After this, we had people design the robot, work through a gantt chart and learn the MATLAB Documentation
+3. Our first goal and milestone was getting the robot to work through remote control. This was not too difficult and was good for the team as we had to make small design changes as we learned how the [sensors](https://github.com/Markay12/mindstormsEV3#sensor-information) worked
+4. From here, the group made many small design changes but ultimately led towards our final design of the robot which would be used for our autonomous control of the robot
+
+**Our Goal**
+* Successfully retrieve a handicapped figure through a maze and return to the start while avoiding walls and obeying traffic laws
+
+**How Did we Achieve this Goal?**
+* By working as a team and delegating our work together to ensure that the project was completed successfully and on time
