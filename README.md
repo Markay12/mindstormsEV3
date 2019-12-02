@@ -15,6 +15,7 @@
 * [Autonomous Control](https://github.com/Markay12/mindstormsEV3#autonomous-control)
 * [Goal of the Project](https://github.com/Markay12/mindstormsEV3#our-mindstormsev3-mission)
 * [Meet the Team](https://github.com/Markay12/mindstormsEV3#meet-the-team)
+* [December Update](https://github.com/Markay12/mindstormsEV3#december-1st-update)
 
 
 ### *Sensor Information*
@@ -246,6 +247,7 @@ end
 
 
 ### *December 1st Update*
+---
 
 The main trouble working through the autonomous driving robot was getting it to be able to drive forward without any assistance. Though this was not completely achieved, manual intervention is still not necessary.
 
