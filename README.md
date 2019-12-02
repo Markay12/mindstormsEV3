@@ -243,3 +243,21 @@ end
 
 **Sammy Arenson**
 * Main documentation lead as well as looking over code to ensure that we were progressing, held the team accountable and together
+
+
+### *December 1st Update*
+
+The main trouble working through the autonomous driving robot was getting it to be able to drive forward without any assistance. Though this was not completely achieved, manual intervention is still not necessary.
+
+* Robot makes it through maze without human touch
+* New implementation to have robot stop when the color on the ground is red, therefore points for stopping should be achieved ([**Final Rubric**](https://github.com/Markay12/mindstormsEV3/blob/master/Spyn%20Demonstration%20Rubric.pdf))
+* robot makes necessary turns, turning right, left 180 and finally backwards
+
+#### *Next Updates*
+
+1. Implement stopping on green and trying to pick up person in wheel chair
+2. Maintain turning and driving straight capabilities
+3. A way to detect when the robot has been moving against a wall
+4. What to do when the color on the ground is blue?
+5. implementations
+6. __December 6th__ Final Demonstration
