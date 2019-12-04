@@ -15,7 +15,8 @@
 * [Autonomous Control](https://github.com/Markay12/mindstormsEV3#autonomous-control)
 * [Goal of the Project](https://github.com/Markay12/mindstormsEV3#our-mindstormsev3-mission)
 * [Meet the Team](https://github.com/Markay12/mindstormsEV3#meet-the-team)
-* [December Update](https://github.com/Markay12/mindstormsEV3#december-1st-update)
+* [December 1 Update](https://github.com/Markay12/mindstormsEV3#december-1st-update)
+* [December 3 Update]()
 
 
 ### *Sensor Information*
@@ -263,3 +264,21 @@ The main trouble working through the autonomous driving robot was getting it to 
 4. What to do when the color on the ground is blue?
 5. implementations
 6. __December 6th__ Final Demonstration
+
+
+### *December 3rd Update*
+---
+
+Functionality for the robot works when moving straight and turning. However, trouble was hit when turning towards a wall and there were no sensors to calculate for these differences. Therefore, I engineered some touch sensors on the front right and front left of the robot to detect when the robot hits a wall and it will back up and turn slightly in the opposite direction of the wall.
+
+* Touch Sensors to know when the robot encounters a wall
+* Robot moves straight
+* Sensors work
+* touch1 is connected to __PORT 1__ and touch2 is connected to __PORT 2__
+
+#### *Next Update*
+
+1. What to do when the robot reaches a blue tile
+2. What to do when the robot reaches a green tile? Move to remote control?
+3. How do we implement the robot to get through the maze when there are certain obstacles?
+4. Can our robot pick up the wheel-chair
