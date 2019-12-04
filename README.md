@@ -16,7 +16,7 @@
 * [Goal of the Project](https://github.com/Markay12/mindstormsEV3#our-mindstormsev3-mission)
 * [Meet the Team](https://github.com/Markay12/mindstormsEV3#meet-the-team)
 * [December 1 Update](https://github.com/Markay12/mindstormsEV3#december-1st-update)
-* [December 3 Update]()
+* [December 3 Update](https://github.com/Markay12/mindstormsEV3#december-3rd-update)
 
 
 ### *Sensor Information*
@@ -263,7 +263,7 @@ The main trouble working through the autonomous driving robot was getting it to 
 3. A way to detect when the robot has been moving against a wall
 4. What to do when the color on the ground is blue?
 5. implementations
-6. __December 6th__ Final Demonstration
+6. __December 5th__ Final Demonstration
 
 
 ### *December 3rd Update*
