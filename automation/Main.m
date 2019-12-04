@@ -1,7 +1,7 @@
 global key
 InitKeyboard();
 
-brick.SetColorMode(4, 2); % set sensor 4 to colorCode 
+brick.SetColorMode(4, 2); % set sensor 4 to colorCode
 
 startMoving = 0;
 
@@ -12,6 +12,8 @@ while 1
     pause(0.1);
     distance = brick.UltrasonicDist(3); % gather the distance data
     color = brick.ColorCode(4); % gather the color data
+    touch = brick.TouchPressed(1);
+    touch2 = brick.TouchPressed(2);
     
     switch key
         
@@ -21,10 +23,13 @@ while 1
                 
                 distance = brick.UltrasonicDist(3);
                 color = brick.ColorCode(4);
+                touch = brick.TouchPressed(1);
+                disp(touch);
+                touch2 = brick.TouchPressed(2);
                 
                 
                 
-                if (distance > 15 && color ~= 5)
+                if (distance > 15 && color ~= 5 && touch ~= 1 && touch2 ~= 1 )
                     
                     brick.MoveMotor('A', 50);
                     brick.MoveMotor('B', 48.6465);
@@ -34,7 +39,40 @@ while 1
                     distance = brick.UltrasonicDist(3);
                     disp(distance);
                     
-                
+                    
+                    
+                elseif touch
+                    brick.StopMotor('A');
+                    brick.StopMotor('B');
+                    pause(1);
+                    brick.MoveMotor('A', -20);
+                    brick.MoveMotor('B', -18.6465);
+                    pause(0.2);
+                    brick.MoveMotor('A', 25);
+                    pause(0.2);
+                    
+                    distance = brick.UltrasonicDist(3);
+                    touch = brick.TouchPressed(1);
+                    touch2 = brick.TouchPressed(2);
+                    disp(distance);
+                    
+                elseif touch2
+                    brick.StopMotor('A');
+                    brick.StopMotor('B');
+                    pause(1);
+                    brick.MoveMotor('A', -20);
+                    brick.MoveMotor('B', -18.6465);
+                    pause(0.2);
+                    brick.MoveMotor('B', 25);
+                    pause(0.2);
+                    
+                    distance = brick.UltrasonicDist(3);
+                    touch = brick.TouchPressed(1);
+                    touch2 = brick.TouchPressed(2);
+                    disp(distance);
+                    
+                    
+                    
                     
                 elseif (distance > 15 && color == 5)
                     brick.StopMotor('A');
@@ -43,6 +81,10 @@ while 1
                     brick.MoveMotor('A', 50);
                     brick.MoveMotor('B', 48.6465);
                     pause(1);
+                    
+                    distance = brick.UltrasonicDist(3);
+                    touch = brick.TouchPressed(1);
+                    touch2 = brick.TouchPressed(2);
                     
                 elseif (distance < 15)
                     
@@ -61,7 +103,9 @@ while 1
                     
                     distance = brick.UltrasonicDist(3);
                     disp(distance);
-
+                    touch = brick.TouchPressed(1);
+                    touch2 = brick.TouchPressed(2);
+                    
                     
                     if (distance < 15)
                         
@@ -75,8 +119,10 @@ while 1
                         
                         distance = brick.UltrasonicDist(3);
                         disp(distance);
+                        touch = brick.TouchPressed(1);
+                        touch2 = brick.TouchPressed(2);
                         
-
+                        
                         if (distance < 15)
                             
                             % turn backwards (around 3pi/2)
@@ -86,10 +132,12 @@ while 1
                             pause(0.875);
                             brick.StopMotor('A');
                             brick.StopMotor('B');
-                           
+                            
                             
                             distance = brick.UltrasonicDist(3);
                             startMoving = 1;
+                            touch = brick.TouchPressed(1);
+                            touch2 = brick.TouchPressed(2);
                             
                             
                         end
