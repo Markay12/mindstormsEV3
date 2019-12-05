@@ -17,7 +17,7 @@
 * [Meet the Team](https://github.com/Markay12/mindstormsEV3#meet-the-team)
 * [December 1 Update](https://github.com/Markay12/mindstormsEV3#december-1st-update)
 * [December 3 Update](https://github.com/Markay12/mindstormsEV3#december-3rd-update)
-* [December 4 Update]()
+* [December 4 Update](https://github.com/Markay12/mindstormsEV3#december-4th-update)
 
 
 ### *Sensor Information*
@@ -289,5 +289,3 @@ Functionality for the robot works when moving straight and turning. However, tro
 ---
 
 Robot works as well as it can with the information provided. Can get through most of the maze without instruction but needs some help. May achieve a good score, however the robot will not be fully Autonomous.
----
----
