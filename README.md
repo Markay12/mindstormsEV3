@@ -17,6 +17,7 @@
 * [Meet the Team](https://github.com/Markay12/mindstormsEV3#meet-the-team)
 * [December 1 Update](https://github.com/Markay12/mindstormsEV3#december-1st-update)
 * [December 3 Update](https://github.com/Markay12/mindstormsEV3#december-3rd-update)
+* [December 4 Update]()
 
 
 ### *Sensor Information*
@@ -282,3 +283,11 @@ Functionality for the robot works when moving straight and turning. However, tro
 2. What to do when the robot reaches a green tile? Move to remote control?
 3. How do we implement the robot to get through the maze when there are certain obstacles?
 4. Can our robot pick up the wheel-chair
+
+
+### *December 4th Update*
+---
+
+Robot works as well as it can with the information provided. Can get through most of the maze without instruction but needs some help. May achieve a good score, however the robot will not be fully Autonomous.
+---
+---
