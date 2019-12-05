@@ -32,8 +32,8 @@ while 1
             
             % 180 degree right
             
-            brick.MoveMotor('A', -49.1);
-            brick.MoveMotor('B', 49.1);
+            brick.MoveMotor('A', -28);
+            brick.MoveMotor('B', 26.6465);
             pause(0.875);
             brick.StopMotor('A');
             brick.StopMotor('B');
