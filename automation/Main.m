@@ -29,17 +29,24 @@ while 1
                 
                 
                 
-                if (distance > 15 && color ~= 5 && touch ~= 1 && touch2 ~= 1 )
+                if (distance > 20 && color ~= 5 && touch ~= 1 && touch2 ~= 1 && color ~= 3)
                     
                     brick.MoveMotor('A', 50);
                     brick.MoveMotor('B', 48.6465);
                     numRightTurns = 0;
                     numLeftTurns = 0;
                     
+                    
                     distance = brick.UltrasonicDist(3);
                     disp(distance);
                     
-                    
+                elseif (distance > 20 && color == 3)
+                    brick.StopMotor('A');
+                    brick.StopMotor('B');
+                    startMoving = 1;
+                  
+                   
+                                  
                     
                 elseif touch
                     brick.StopMotor('A');
@@ -74,7 +81,7 @@ while 1
                     
                     
                     
-                elseif (distance > 15 && color == 5)
+                elseif (distance > 20 && color == 5)
                     brick.StopMotor('A');
                     brick.StopMotor('B');
                     pause(3);
@@ -86,12 +93,12 @@ while 1
                     touch = brick.TouchPressed(1);
                     touch2 = brick.TouchPressed(2);
                     
-                elseif (distance < 15)
+                elseif (distance < 20)
                     
                     % turn right
                     
-                    brick.MoveMotor('A', -28.785);
-                    brick.MoveMotor('B', 27);
+                    brick.MoveMotor('A', -28);
+                    brick.MoveMotor('B', 26.6465);
                     pause(0.875);
                     brick.StopMotor('A');
                     brick.StopMotor('B');
@@ -107,7 +114,7 @@ while 1
                     touch2 = brick.TouchPressed(2);
                     
                     
-                    if (distance < 15)
+                    if (distance < 20)
                         
                         % turn to the left 180 degrees
                         
@@ -123,7 +130,7 @@ while 1
                         touch2 = brick.TouchPressed(2);
                         
                         
-                        if (distance < 15)
+                        if (distance < 20)
                             
                             % turn backwards (around 3pi/2)
                             
