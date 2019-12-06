@@ -44,8 +44,7 @@ while 1
                     brick.StopMotor('A');
                     brick.StopMotor('B');
                     startMoving = 1;
-                  
-                   
+                      
                                   
                     
                 elseif touch
@@ -62,6 +61,7 @@ while 1
                     touch = brick.TouchPressed(1);
                     touch2 = brick.TouchPressed(2);
                     disp(distance);
+                    startMoving = 1;
                     
                 elseif touch2
                     brick.StopMotor('A');
@@ -77,6 +77,7 @@ while 1
                     touch = brick.TouchPressed(1);
                     touch2 = brick.TouchPressed(2);
                     disp(distance);
+                    startMoving = 1;
                     
                     
                     
@@ -95,8 +96,10 @@ while 1
                     
                 elseif (distance < 20)
                     
+                    brick.StopMotor('A');
+                    brick.StopMotor('B');
                     % turn right
-                    
+                    pause(1);
                     brick.MoveMotor('A', -28);
                     brick.MoveMotor('B', 26.6465);
                     pause(0.875);
@@ -118,9 +121,9 @@ while 1
                         
                         % turn to the left 180 degrees
                         
-                        brick.MoveMotor('A',  45.9125); % -49.1
-                        brick.MoveMotor('B', -49.1); % 45.9125
-                        pause(0.875);
+                        brick.MoveMotor('A',  -49.1); % -49.1
+                        brick.MoveMotor('B', 45.9125); % 45.9125
+                        pause(0.675);
                         brick.StopMotor('A');
                         brick.StopMotor('B');
                         
@@ -133,10 +136,10 @@ while 1
                         if (distance < 20)
                             
                             % turn backwards (around 3pi/2)
-                            
-                            brick.MoveMotor('A', 27);
-                            brick.MoveMotor('B', -28.785);
-                            pause(0.875);
+                            pause(1);
+                            brick.MoveMotor('A', 26.6465);
+                            brick.MoveMotor('B', -28);
+                            pause(0.675);
                             brick.StopMotor('A');
                             brick.StopMotor('B');
                             
