@@ -18,6 +18,7 @@
 * [December 1 Update](https://github.com/Markay12/mindstormsEV3#december-1st-update)
 * [December 3 Update](https://github.com/Markay12/mindstormsEV3#december-3rd-update)
 * [December 4 Update](https://github.com/Markay12/mindstormsEV3#december-4th-update)
+* [Demonstration]()
 
 
 ### *Sensor Information*
@@ -289,3 +290,11 @@ Functionality for the robot works when moving straight and turning. However, tro
 ---
 
 Robot works as well as it can with the information provided. Can get through most of the maze without instruction but needs some help. May achieve a good score, however the robot will not be fully Autonomous.
+
+
+### *_Demonstration Day_*
+
+The main rules of the course were a little difficult in the final go of the robot, however, we were able to successfully get the robot through the course having a drop off and pick up point. Our robot did not work in a fully autonomous style, however, it did go through at least 1/3 of the course in an autonomous style. Videos and pictures will be updated soon.
+
+* scored a 97/100
+* 1st place in the robot battles
