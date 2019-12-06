@@ -7,8 +7,8 @@ while 1
     switch key
         
         case 'w'
-            brick.MoveMotor('C', 100);
-            pause(0.5);
+            brick.MoveMotor('C', 10);
+            pause(0.2);
             brick.StopMotor('C');
             
         case 's'
@@ -36,15 +36,15 @@ while 1
         case 'uparrow'
             brick.StopMotor('A');
             brick.StopMotor('B');
-            brick.MoveMotor('A', 100);
-            brick.MoveMotor('B', 98.6465);
+            brick.MoveMotor('A', 50);
+            brick.MoveMotor('B', 48.6465);
             
             
         case 'downarrow'
             brick.StopMotor('A');
             brick.StopMotor('B');
-            brick.MoveMotor('A', -100);
-            brick.MoveMotor('B', -100);
+            brick.MoveMotor('A', -50);
+            brick.MoveMotor('B', -48.6465);
             
         case 'leftarrow'
             brick.StopMotor('A');
@@ -69,6 +69,11 @@ while 1
             brick.StopMotor('A');
             brick.StopMotor('B');
             
+        case 'f'
+            brick.StopMotor('A');
+            brick.StopMotor('B');
+            brick.MoveMotor('A', -100);
+            brick.MoveMotor('B', -98.6465);
             
         case 'd'
             
